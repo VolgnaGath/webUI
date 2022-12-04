@@ -38,11 +38,10 @@ public class Triangle {
         this.c = c;
     }
 
-    public String squareTri() {
+    public double squareTri() {
             double p = (a + b + c) / 2;
-            double square = Math.sqrt(p * (p - a) * (p - b) * (p - c));
-            String result = String.format("%.2f", square);
-            return result;
+            return Math.sqrt(p * (p - a) * (p - b) * (p - c));
+
         }
 
 }

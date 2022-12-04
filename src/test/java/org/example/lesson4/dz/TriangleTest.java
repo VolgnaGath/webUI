@@ -18,14 +18,14 @@ import static org.assertj.core.api.Assertions.assertThat;
 public class TriangleTest {
     @ParameterizedTest
     @MethodSource("squareTriProvider")
-    void squareTriTest(Triangle triangle, String square) {
-        Assertions.assertEquals(triangle.squareTri(), square);
+    void squareTriTest(Triangle triangle, double square) {
+        Assertions.assertEquals(square, triangle.squareTri(), 0.01);
     }
 
     private static List<Arguments> squareTriProvider() {
         return Arrays.asList(
-                Arguments.of(new Triangle(6.0, 10.0, 7.0), "20,66"),
-                Arguments.of(new Triangle(11.0, 12.0, 6.0), "32,84")
+                Arguments.of(new Triangle(6.0, 10.0, 7.0), 20.66),
+                Arguments.of(new Triangle(11.0, 12.0, 6.0), 32.84)
         );
     }
 }
