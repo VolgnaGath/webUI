@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="016b46d4-f8b7-49be-9c7d-fa0623eea35a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Lesson3/SeleniumStart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Lesson3/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="016b46d4-f8b7-49be-9c7d-fa0623eea35a" name="Changes" comment="6">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Lesson7/MyUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Lesson7/MyWebDriverEventListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Lesson7/dz/EventListenerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/lesson5/dz/Pitomec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/lesson5/dz/FindNurseryPitomecTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/lesson6/dz/BuyTShirtTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/lesson6/dz/BuyTShirtTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,12 +21,26 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Class" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="6" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="recentNewPullRequestHead">
+      <RepoCoordinatesHolder>
+        <option name="owner" value="VolgnaGath" />
+        <option name="repository" value="webUI" />
+      </RepoCoordinatesHolder>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -37,66 +51,106 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\1\IdeaProjects\webUI\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.main">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.App" />
+  <component name="RunManager" selected="JUnit.FindNurseryPitomecTest.nurseryTest">
+    <configuration name="BuyTShirtTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="webUI" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.lesson6.dz.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="org.example.lesson6.dz" />
+      <option name="MAIN_CLASS_NAME" value="org.example.lesson6.dz.BuyTShirtTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SeleniumStart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Lesson3.SeleniumStart" />
+    <configuration name="BuyTShirtTest.BuyTShirtTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="webUI" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Lesson3.*" />
+          <option name="PATTERN" value="org.example.lesson6.dz.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="org.example.lesson6.dz" />
+      <option name="MAIN_CLASS_NAME" value="org.example.lesson6.dz.BuyTShirtTest" />
+      <option name="METHOD_NAME" value="BuyTShirtTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Lesson3.main" />
+    <configuration name="EventListenerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="webUI" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.Lesson3.*" />
+          <option name="PATTERN" value="org.example.Lesson7.dz.dz.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="org.example.Lesson7.dz.dz" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Lesson7.dz.dz.EventListenerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EventListenerTest.BuyTShirtTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="webUI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.Lesson7.dz.dz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.Lesson7.dz.dz" />
+      <option name="MAIN_CLASS_NAME" value="org.example.Lesson7.dz.dz.EventListenerTest" />
+      <option name="METHOD_NAME" value="BuyTShirtTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindNurseryPitomecTest.nurseryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="webUI" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.lesson5.dz.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.lesson5.dz" />
+      <option name="MAIN_CLASS_NAME" value="org.example.lesson5.dz.FindNurseryPitomecTest" />
+      <option name="METHOD_NAME" value="nurseryTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.main" />
-        <item itemvalue="Application.SeleniumStart" />
-        <item itemvalue="Application.App" />
+        <item itemvalue="JUnit.FindNurseryPitomecTest.nurseryTest" />
+        <item itemvalue="JUnit.EventListenerTest.BuyTShirtTest" />
+        <item itemvalue="JUnit.EventListenerTest" />
+        <item itemvalue="JUnit.BuyTShirtTest" />
+        <item itemvalue="JUnit.BuyTShirtTest.BuyTShirtTest" />
       </list>
     </recent_temporary>
   </component>
@@ -109,6 +163,28 @@
       <option name="presentableId" value="Default" />
       <updated>1667125366725</updated>
     </task>
+    <task id="LOCAL-00001" summary="1">
+      <created>1670057257303</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1670057257303</updated>
+    </task>
+    <task id="LOCAL-00002" summary="5">
+      <created>1670158609481</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1670158609482</updated>
+    </task>
+    <task id="LOCAL-00003" summary="6">
+      <created>1671276525352</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1671276525352</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -116,10 +192,28 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="7" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1" />
+    <MESSAGE value="5" />
+    <MESSAGE value="6" />
+    <option name="LAST_COMMIT_MESSAGE" value="6" />
   </component>
 </project>
